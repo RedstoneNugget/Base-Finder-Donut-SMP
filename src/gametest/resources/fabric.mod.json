@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "base_finder-gametest",
+  "version": "1.0.0",
+  "name": "Base Finder Donut SMP GameTest",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-client-gametest": ["com.basefinder.test.BaseFinderClientGameTest"]
+  },
+  "depends": {
+    "base_finder": "*"
+  }
+}
